@@ -255,7 +255,7 @@ opacity: 1.0;
 }
 */
 /***links***/
-/*a, a:link, a:visited {
+a, a:link, a:visited {
   color: #b12c16;
   text-decoration: none;
 }
@@ -263,7 +263,7 @@ opacity: 1.0;
 a:hover, a:focus, a:active {
   color: #d29888;
 }
-*/
+
 
 /***elements***/
 
