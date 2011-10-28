@@ -45,3 +45,7 @@ q:before, q:after {
 blockquote, q {
   quotes: "" "";
 }
+
+header, footer, section, article {
+    display: block;
+}

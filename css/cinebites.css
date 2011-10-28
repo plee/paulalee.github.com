@@ -24,10 +24,11 @@ body p{
 }
 
 */
-#margin {
+#margin, .inner{
   margin: auto;
   width: 960px;
 }
+
 /*
 div#nav {
   width: 15%;
@@ -300,7 +301,7 @@ h1 {
   font-size: 24px;
   margin: 5px 5px 5px 0px;
   color: #000000;
-  font-weight: 600;
+  font-weight: 300;
   border-bottom: .2em ridge;
 }
 /*
