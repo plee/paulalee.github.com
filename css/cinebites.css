@@ -97,6 +97,7 @@ footer {
 footer a {
   color: #000000;
   text-decoration: none;
+  padding: 5px;
 }
 
 footer img {
