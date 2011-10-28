@@ -78,10 +78,13 @@ footer {
   font-weight: bold;
   padding: 5px;
   background-color: #8c8c8c;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 footer a {
   color: #000000;
+  text-decoration: none;
 }
 /*
 div#main {
