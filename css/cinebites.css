@@ -76,15 +76,11 @@ footer {
   text-align: center;
   font-size: 75%;
   padding: 5px;
-  border-top: .2em ridge;
-
-/*  background-color: green; */
+  background-color: #8c8c8c;
 }
 
 footerLinks a {
   color: #b12c16;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 /*
 div#main {
