@@ -265,13 +265,14 @@ a:hover, a:focus, a:active {
 */
 
 /***elements***/
-/*
+
 img {
   border: none; 
   padding: 5px 5px 5px 0px;
   margin-right: 6px; 
+  text-align: center;
 }
-
+/*
 strong {
   font-weight:bold;
 }
@@ -373,9 +374,6 @@ em {
 }
 
 */
-.center {
-    text-align: center;
-}
 
 /*.list {
   
