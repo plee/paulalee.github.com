@@ -275,7 +275,7 @@ img {
 strong {
   font-weight:bold;
 }
-
+*/
 
 h1 {
   font-size: 18px;
@@ -284,7 +284,7 @@ h1 {
   font-weight: 600;
   border-bottom: .1em ridge;
 }
-
+/*
 h2 {
   font-size: 14px;
   color: #b12c16;
@@ -371,7 +371,12 @@ div#headerRight p {
 em {
   font-style: italic;
 }
+
 */
+center {
+    text-align: center;
+}
+
 /*.list {
   
 }
