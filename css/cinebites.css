@@ -269,8 +269,8 @@ a:hover, a:focus, a:active {
 img {
   border: none; 
   padding: 5px 5px 5px 0px;
-  margin-right: 6px; 
-  text-align: center;
+  margin: auto; 
+  display: block;
 }
 /*
 strong {
