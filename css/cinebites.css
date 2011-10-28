@@ -73,14 +73,14 @@ div#texture {
 */
 footer {
   clear: both;
-  text-align: center;
+  text-align: right;
   font-size: 75%;
   padding: 5px;
   background-color: #8c8c8c;
 }
 
 footerLinks a {
-  color: #b12c16;
+  color: #8c8c8c;
 }
 /*
 div#main {
