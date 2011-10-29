@@ -323,9 +323,13 @@ h1 {
 
 #contentRight {
     width: 275px;
-    height: 400px;
     float: right;
-    background-color: #8c8c8c;
+    margin: 10px 0px 10px 0px;
+}
+#contentRightNews {
+    width: 275px;
+    float: right;
+
     margin: 10px 0px 10px 0px;
 }
 
@@ -401,7 +405,7 @@ div#headerRight p {
   font-style: italic;
   width: 160px;
 }
-
+*/
 .floatLeft {
   float:left;
 }
@@ -409,7 +413,7 @@ div#headerRight p {
 .floatRight {
   float:right;
 }
-
+/*
 .quote {
   text-align: right;
   float: right;
