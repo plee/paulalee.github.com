@@ -13,10 +13,18 @@ body {
   font-size: 14px;
   line-height: 20px;
   background-image: url(/image/tile.jpg);
-
 /* background-color: #b12c16;*/
 /*  background-color: #311919;*/
 }
+
+
+.video {
+    margin: 1em auto;
+    width: 560px;
+    display: block;
+
+}
+
 /*
 body p{
   padding: 5px;
