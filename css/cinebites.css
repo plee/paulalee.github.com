@@ -25,13 +25,12 @@ body {
 
 }
 
-/*
+
 body p{
   padding: 5px;
   
 }
 
-*/
 #margin, .inner{
   margin: auto;
   width: 960px;
@@ -303,11 +302,11 @@ img {
   margin: auto; 
   display: block;
 }
-/*
+
 strong {
   font-weight:bold;
 }
-*/
+
 
 h1 {
   font-size: 24px;
@@ -319,6 +318,13 @@ h1 {
 #contentLeft {
     width: 650px;
     float: left;
+    margin: 10px 0px 10px 0px;
+}
+
+#contentLeftGuidelines {
+    width: 575px;
+    float: left;
+    margin: 10px 0px 10px 0px;
 }
 
 #contentRight {
@@ -331,11 +337,20 @@ h1 {
     float: right;
     margin: 10px 0px 10px 0px;
 }
+#contentRightGuidelines {
+    width: 400px;
+    float: right;
+    padding: 10px;
+    background-color: gray;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    
+}
 
 #contentRightInner {
     padding: 10px;
 }
-/*
+
 h2 {
   font-size: 14px;
   color: #b12c16;
@@ -352,7 +367,7 @@ h3 {
   color: #b12c16;
   margin: 10px 10px 10px 0px;
 }
-
+/*
 td {
   padding-right: 20px;
 }
@@ -425,10 +440,20 @@ em {
 
 */
 
-/*.list {
-  
+
+
+ul {
+  list-style: decimal outside;
+  margin-left: 40px;
+  list-style-type: circle;
 }
-*/
+
+ul li,
+ol li {
+  margin: 0px 0px 8px 0px;
+  list-style-type: circle;
+}
+
 /***callout***/
 /***table***/
 /*.black {color: black;}
