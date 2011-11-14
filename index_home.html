@@ -10,13 +10,17 @@
   <body>
     <header>
             <img src ="/image/header.jpg" />
+
             <div class="inner">
-                    <a href="/" class="navLink">HOME</a>
+                <div id="nav">
+                    <a href="/index_home.html" class="navLink"><font color="white">HOME</font></a>
                     <a href="/about/" class="navLink">ABOUT</a>
                     <a href="/gallery/" class="navLink">GALLERY</a>
                     <a href="/submit-film/" class="navLink">SUBMIT FILM</a>
-                    <a href="/sponsor-us/" class="navLink">SPONSOR US</a>
+                    <a href="/sponsor/" class="navLink">SPONSOR US</a>
+                    <a href="/tickets/" class="navLink">TICKETS</a>
                     <a href="/contact/" class="navLink">CONTACT</a>
+               </div>
             <div class="inner">
                                 <a href="#"><img src="/image/facebook.png" alt="facebook us" class="floatRight" /></a>
                     <a href="#"><img src="/image/twitter.png" alt="twitter us" class="floatRight"/></a>
@@ -27,18 +31,58 @@
             <div id="contentLeft">
                 <h1>support creativity.  support the arts.  support local filmmakers.</h1>
                 <p>CINEBITES&reg; is a festival to aid the campaign of <a href="http://www.cinbites.org" target="_blank">Arts Street</a> as well as to promote and display the ingenuity of Denver's creative class.
-                <img src="/image/tv.png" alt="coming attractions"/>
+
+                <div id="tvbox">
+                    <div class="screen">
+                    </div>
+                </div>
+
+
+
+
+            
             </div>
+
+
+        
 
             <div id="contentRight">
                 <div id="contentRightInner">
                 <h1 class="floatRight">why we exist:</h1>
                 <iframe width="255" height="132" src="http://www.youtube.com/embed/R4lM7Pcz5xM" frameborder="0" allowfullscreen></iframe>
-                    <div id="contentRightNews">
+                    <div id="contentRightNews" class="floatRight">
                         <h1 class="floatRight">'sup with us:</h1>  
                         <br /><br />
                         <hr />
-                        <p><a href="#">News Item Title</a><br />
+                        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 275,
+  height: 200,
+  theme: {
+    shell: {
+      background: '#bfbbbf',
+      color: '#0a454f'
+    },
+    tweets: {
+      background: '#f7f7f7',
+      color: '#80baed',
+      links: '#7d8ba3'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('Cinebites').start();
+</script>
+                        <!--<p><a href="#">News Item Title</a><br />
                         Saturday 10-29-2011<br />
                         Brief description goes here.<br />
                         <a href="#">Read More&raquo;</a></p>
@@ -52,15 +96,17 @@
                         Saturday 10-29-2011<br />
                         Brief description goes here.<br />
                         <a href="#">Read More&raquo;</a></p>   
-                        <hr />    
+                        <hr />-->    
                     </div>
+                    
                 </div>
+
             </div>
 
-
-
         </div>
+
     <footer>
+
         <div class="inner">
         <!--<a href="#"><img src="/image/facebook.png" alt="facebook us" /></a>
         <a href="#"><img src="/image/twitter.png" alt="twitter us" /></a>
@@ -70,6 +116,7 @@
             <a href="/gallery/">gallery</a>
             <a href="/submit-film/">submit film</a>
             <a href="/sponsor/">sponsor us</a>
+            <a href="/tickets/">tickets</a>
             <a href="/contact/">contact</a>
             <a href="/sitemap/">sitemap</a>
             <a href="/privacy/">privacy</a>

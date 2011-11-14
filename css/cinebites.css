@@ -37,10 +37,7 @@ body p{
 }
 
 
-div#nav {
-  width: 15%;
-  float: left;
-}
+
 /*
 div#header {
   text-align: left;
@@ -83,8 +80,6 @@ div#texture {
 header {
   clear: both;
   background-color: #8c8c8c;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
   margin-bottom: 20px;
 }
 
@@ -107,6 +102,8 @@ footer {
   opacity: 0.75;
   filter: alpha(opacity=50);
 }
+
+
 
 footer a {
   color: #000000;
@@ -257,6 +254,7 @@ opacity: 1.0;
 .navLink span {
   display: none;
 }
+
 /*
 #home {
   background-image: url('/image/nav_home_sp.png');
@@ -284,6 +282,23 @@ opacity: 1.0;
 }
 */
 /***links***/
+.navLink a, a:link, a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navLink a:hover, a:focus, a:active {
+  color: #ffffff;
+}
+
+#nav a, a:link, a:visited {
+  color: #000000;
+}
+
+#nav a:hover, a:focus, a:active {
+  color: #ffffff;
+}
+
 a, a:link, a:visited {
   color: #000000;
   text-decoration: none;
@@ -303,6 +318,32 @@ img {
   display: block;
 }
 
+.banner2012 {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-image: url('/image/banner2012.jpg');
+    height: 175px;
+    width: 600px;
+    margin: 10px;
+}
+
+.banner2011 {
+    -moz-border-radius: 15px;
+    background-image: url('/image/banner2011.jpg');
+    border-radius: 15px;
+    height: 175px;
+    width: 600px;
+    margin: 10px;
+}
+
+.banner2009 {
+    -moz-border-radius: 15px;
+    background-image: url('/image/banner2009.jpg');
+    border-radius: 15px;
+    height: 175px;
+    width: 600px;
+    margin: 10px;
+}
 strong {
   font-weight:bold;
 }
@@ -320,9 +361,49 @@ h1 {
     float: left;
     margin: 10px 0px 10px 0px;
 }
+#leftNav {
+    width: 200px;
+    float: left;
+    margin: 10px 0px 10px 0px;
 
+    margin-right: 5px;
+}
+
+#contentLeftInternal {
+    width: 600px;
+    float: left;
+    margin: 10px 0px 10px 0px;
+
+    
+}
+#contentRightInternal {
+    width: 200px;
+    float: left;
+    margin: 10px 0px 10px 0px;
+
+}
+#contentLeftBucket1 {
+    width: 400px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+#contentLeftBucket2 {
+    width: 150px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: gray;
+}
 #contentLeftGuidelines {
-    width: 575px;
+    width: 525px;
     float: left;
     margin: 10px 0px 10px 0px;
 }
@@ -339,6 +420,16 @@ h1 {
 }
 #contentRightGuidelines {
     width: 400px;
+    float: left;
+    padding: 10px;
+    background-color: gray;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    
+}
+
+#contentRightSponsors {
+    width: 300px;
     float: right;
     padding: 10px;
     background-color: gray;
@@ -433,13 +524,18 @@ div#headerRight p {
   float: right;
   color: #990000;
 }
-
+*/
 em {
   font-style: italic;
 }
 
-*/
-
+blockquote {
+    margin: 0 0 1.3em 3em;
+    padding: 0 2em 0 1em;
+    color: #C5CBD0;
+    border-left: 3px solid #A1FF66;
+    
+}
 
 
 ul {
@@ -483,3 +579,30 @@ table tr td {
   background-color: transparent;
 }
 */
+.red {
+  color: red;
+}
+
+.white {
+  color: white;
+}
+
+.screen {
+    background-image: url(/image/cinebites_2012flier.jpg);
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    width: 525px;
+    height: 270px;
+    margin: 15px;
+    
+}
+#tvbox {
+    width: 600px;
+    height: 300px;
+    background-image: url(/image/change.jpg);
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    padding: 15px;
+    
+}
+
