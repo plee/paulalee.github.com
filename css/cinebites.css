@@ -233,12 +233,13 @@ h1 {
     margin: 10px 0px 10px 0px;
 }
 #contentRightGuidelines {
-    width: 400px;
+    width: 375px;
     float: left;
     padding: 10px;
-    background-color: gray;
+    background-color: #ffffff;
     -moz-border-radius: 15px;
     border-radius: 15px;
+     border: 1px solid;
     
 }
 
@@ -296,7 +297,7 @@ blockquote {
     margin: 0 0 1.3em 3em;
     padding: 0 2em 0 1em;
     color: #C5CBD0;
-    border-left: 3px solid #A1FF66;
+    border-left: 3px solid #F8F8F8;
     
 }
 
@@ -318,6 +319,10 @@ ol li {
 
 .white {
   color: white;
+}
+
+.orange {
+  color: orange;
 }
 
 .screen {
