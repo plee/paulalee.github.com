@@ -14,6 +14,16 @@ $(function(){
 		navFormatter : function(){ return "&#9679;"; } // function which returns the navigation text for each panel
 	});
 
+$('#slider-gallery').movingBoxes({
+		startPanel   : 1,      // start with this panel
+		width        : 700,    // overall width of movingBoxes (not including navigation arrows)
+		panelWidth: 1,
+
+		wrap         : true,   // if true, the panel will "wrap" (it really rewinds/fast forwards) at the ends
+		buildNav     : true,   // if true, navigation links will be added
+		navFormatter : function(){ return "&#9679;"; } // function which returns the navigation text for each panel
+	});
+
 	$('#slider-two').movingBoxes({
 		startPanel   : 3,      // start with this panel
 		width        : 500,    // overall width of movingBoxes (not including navigation arrows)

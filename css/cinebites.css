@@ -12,8 +12,19 @@ body {
   font-family: "Gill Sans", "Gill Sans MT";
   font-size: 14px;
   line-height: 20px;
-  background-image: url(/image/tile.jpg);
-
+  /*background-image: url(/image/tile.jpg);*/
+  /*background-image: url(/image/old_wall.png);*/
+  /*background-image: url(/image/connect.png);*/
+  /*background-image: url(/image/paper_2.png);*/
+  /*background-image: url(/image/ricepaper2.png);*/
+  /*background-image: url(/image/roughcloth.png);*/
+  /*background-image: url(/image/stucco.png);*/
+  background-image: url(/image/washi.png);
+  /*background-image: url(/image/cardboard.png);*/
+  /*background-image: url(/image/gold_scale.png); */
+  /*background-image: url(/image/xv.png);*/
+  /*background-image: url(/image/soft_circle_scales.png);*/
+  /*background-image: url(/image/rockywall.png);*/
 }
 
 
@@ -43,7 +54,7 @@ div#wrapper {
 
 header {
   clear: both;
-  background-color: #8c8c8c;
+  background-color: rgba(0,0,0,0.2);
   margin-bottom: 20px;
 
 }
@@ -54,7 +65,7 @@ header .inner {
   font-weight: bold;
   margin: auto;
   width: 960px;
-  padding-right: 10px;
+  padding: 0 10px 5px 0;
 }
 
 footer {
