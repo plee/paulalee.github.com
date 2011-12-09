@@ -44,7 +44,9 @@ body p{
 #margin, .inner{
   margin: auto;
   width: 960px;
+
 }
+
 
 div#wrapper {
   width:960px;
@@ -124,17 +126,16 @@ footer img {
 #nav a:hover, a:focus, a:active {
   color: #ffffff;
 }
-
+**/
 a, a:link, a:visited {
-  color: #000000;
+  color: blue;
   text-decoration: none;
 }
 
 a:hover, a:focus, a:active {
-  color: #ffffff;
+  color: gray;
 }
 
-**/
 /***elements***/
 
 img {
@@ -186,6 +187,19 @@ h1 {
     width: 650px;
     float: left;
     margin: 10px 0px 10px 0px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid;
+
+
+
+}
+
+#whiteBackground {
+    width: 960px;
+    background-color: green;
 }
 #leftNav {
     width: 100px;
@@ -196,11 +210,14 @@ h1 {
 }
 
 #contentLeftInternal {
-    width: 600px;
+    width: 700px;
     float: left;
     margin: 10px 0px 10px 0px;
-
-    
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid;
 }
 #contentRightInternal {
     width: 200px;
@@ -232,6 +249,11 @@ h1 {
     width: 525px;
     float: left;
     margin: 10px 0px 10px 0px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid;
 }
 
 #contentRight {
@@ -308,8 +330,8 @@ em {
 blockquote {
     margin: 0 0 1.3em 3em;
     padding: 0 2em 0 1em;
-    color: #C5CBD0;
-    border-left: 3px solid #F8F8F8;
+    color: red;
+    border-left: 3px solid red;
     
 }
 
@@ -335,6 +357,10 @@ ol li {
 
 .orange {
   color: orange;
+}
+
+.blue {
+  color: blue;
 }
 
 .screen {
