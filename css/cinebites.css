@@ -91,6 +91,17 @@ footer img {
     float: right;
 }
 
+.sponsors {
+    clear: both;
+    text-align: left;
+}
+
+.sponsors img{
+    float: left;
+    padding-right: 20px;
+
+}
+
 /**navigation**/
 
 .navLink {

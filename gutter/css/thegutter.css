@@ -1,0 +1,160 @@
+/* Reset default positioning values */
+@import "reset.css";
+
+/***layout***/
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT";
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #ceeefa;
+}
+
+body p{
+  padding: 5px; 
+}
+
+
+#headerQuote {
+  /*background-color:  yellow;*/
+  float: right;
+  width: 50%;
+  margin-top: 2%;
+  margin-right: 30px;
+  line-height:  2em;
+  font-size: 16px;  
+} 
+
+.mostPopular {
+  background-color: #6e8a93;
+  float: right;
+  width: 30%;
+  margin-top: 25px;
+  padding: 5px;
+  height:  400px;
+  opacity: 0.75;
+  filter: alpha(opacity=50);
+}   
+
+.mostPopular p {
+  margin-right: 20px;   
+}
+
+/**navigation**/
+div#nav {
+  margin-top:  2%;
+  padding:  20px;
+  width: 100%;
+  float: right;
+  background-color: #6e8a93;
+  font-size: 16px;
+  opacity: 0.75;
+  filter: alpha(opacity=50);
+}
+
+div#navFooter {
+  margin-top:  2%;
+  padding:  10px;
+  width: 100%;
+  float: right;
+  background-color: #6e8a93;
+  font-size: 12px;
+  opacity: 0.75;
+  filter: alpha(opacity=50);
+}
+
+
+/***links***/
+a, a:link, a:visited {
+  color: white;
+  text-decoration: none;
+  padding-left:  5%;
+  float: right;
+}
+
+a:hover, a:focus, a:active {
+  color: black;
+}
+
+
+/***elements***/
+
+img {
+  border: none; 
+  padding: 5px 5px 5px 0px;
+  margin-right: 6px; 
+}
+
+strong {
+  font-weight:bold;
+}
+
+
+h1 {
+  font-size: 18px;
+  margin: 10px 10px 10px 0px;
+  color: white;
+}
+
+h2 {
+  font-size: 16px;
+  color: black;
+  margin: 10px 10px 10px 0px;
+}
+
+h3 {
+  font-size: 14px;
+  line-height: 0px;
+  padding-top: 10px;
+  color: #b12c16;
+  margin: 10px 10px 10px 0px;
+}
+
+td {
+  padding-right: 20px;
+}
+/***classes***/
+
+.floatLeft {
+  float:left;
+}
+
+.floatRight {
+  float:right;
+}
+
+em {
+  font-style: italic;
+}
+/*.list {
+  
+}
+*/
+/***callout***/
+/***table***/
+.black {color: black;}
+
+table tr th {
+  text-align: right;
+  width: 100px;
+  height: auto;
+  font-weight: normal;
+  padding: 12px 5px 5px 0px;
+  vertical-align: top;
+  line-height: 16px;
+  font-size: 14px;
+  color: #b12c16;
+  font-weight: bolder;
+}
+
+table tr td {
+  height: auto;
+  padding: 5px 5px 5px 0px;
+  vertical-align: top;
+  line-height: 16px;
+}
