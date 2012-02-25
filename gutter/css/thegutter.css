@@ -6,19 +6,21 @@
 html, body {
   width: 100%;
   height: 100%;
+  background-image: url('/gutter/images/background.jpg');
+  background-position-x: 50%;
+  background-repeat: no-repeat;
 }
 
 body {
-  font-family: "Gill Sans", "Gill Sans MT";
+  font-family: 'Ropa Sans', sans-serif;
   font-size: 14px;
-  line-height: 20px;
-  background-color: #ceeefa;
+
 }
 
-body p{
-  padding: 5px; 
-}
+body p {
 
+
+}
 
 #headerQuote {
   /*background-color:  yellow;*/
@@ -27,7 +29,8 @@ body p{
   margin-top: 2%;
   margin-right: 30px;
   line-height:  2em;
-  font-size: 16px;  
+  font-size: 18px;  
+  font-family: 'Shadows Into Light Two', cursive;
 } 
 
 .mostPopular {
@@ -45,9 +48,13 @@ body p{
   margin-right: 20px;   
 }
 
+.mostPopular h1 {
+  float: right;
+}
+
 /**navigation**/
 div#nav {
-  margin-top:  2%;
+  margin-top:  3%;
   padding:  20px;
   width: 100%;
   float: right;
@@ -57,9 +64,49 @@ div#nav {
   filter: alpha(opacity=50);
 }
 
+div#nav a, a:link, a:visited {
+  color: white;
+  text-decoration: none;
+  padding-left:  5%;
+  float: right;
+}
+
+div#logo {
+    position: absolute;
+    z-index: 50;
+    left: 0;
+    top: 0;
+    margin-left: 20px;
+}
+
+div#swoop {
+    position: absolute;
+    z-index: -50;
+    left: 130px;
+    top: 0;
+    margin-top: 50px;
+
+}
+
+div#entriesBox {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin:  100px 100px 0px 100px;
+    position: relative;
+}
+
+.entries {
+    height: 150px;
+}
+
+.entriesImage {
+    margin: 5px;
+}
+
 div#navFooter {
   margin-top:  2%;
-  padding:  10px;
+  padding: 10px;
   width: 100%;
   float: right;
   background-color: #6e8a93;
@@ -68,13 +115,19 @@ div#navFooter {
   filter: alpha(opacity=50);
 }
 
-
-/***links***/
-a, a:link, a:visited {
+div#navFooter a, a:link, a:visited {
   color: white;
   text-decoration: none;
   padding-left:  5%;
   float: right;
+}
+
+
+/***links***/
+a, a:link, a:visited {
+  color: blue;
+  text-decoration: none;
+  float: left;
 }
 
 a:hover, a:focus, a:active {
