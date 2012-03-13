@@ -64,10 +64,14 @@ header {
 header .inner {
   clear: both;
   font-size: 100%;
-  font-weight: bold;
   margin: auto;
   width: 960px;
   padding: 0 10px 5px 0;
+}
+
+.headerinfo {
+  float: right;
+  text-align: right;
 }
 
 footer {
@@ -148,6 +152,11 @@ a:hover, a:focus, a:active {
 }
 
 /***elements***/
+.wufoo {
+    width:100%;
+    border:none;
+    height: 900px;
+}
 
 img {
   border: none; 
