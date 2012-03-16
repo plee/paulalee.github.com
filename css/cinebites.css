@@ -9,7 +9,10 @@ html, body {
 }
 
 body {
-  font-family: "Gill Sans", "Gill Sans MT";
+  /*font-family: "Gill Sans", "Gill Sans MT";*/
+  /*font-family: 'Junge', serif;*/
+  /*font-family: 'Lustria', serif;*/
+  font-family: 'Glegoo', serif;
   font-size: 14px;
   line-height: 20px;
   /*background-image: url(/image/tile.jpg);*/
