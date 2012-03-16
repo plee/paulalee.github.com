@@ -334,7 +334,9 @@ h3 {
 .floatLeftBio {
   float:left;
   display: inline;
-  margin: 5px;
+  margin: 5px 5px 0px 5px;
+  border-style: dotted;
+  border-width: 1px;
 
 }
 
