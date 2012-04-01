@@ -1,7 +1,9 @@
 <!doctype html>
 <html>
   <head>
-    <title>CINEBITES | Website Coming Soon ...</title>
+    <title>CINEBITES | Shorts film festival to support a non-profit</title>
+    <meta name="description" content="Cineites is an annual Film Festival held in Denver, CO.  We showcase short films from around the world." />
+    <meta name="keywords" content="Cinebites, shorts film festival, film festival, Matt Struck, Hitu Parmar, Paula Lee, Arts Street, Arts-Street" />
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="" />
   <link rel="stylesheet" type="text/css" href="/css/cinebites.css" />
@@ -23,10 +25,6 @@
 
   </script>
 
-  <!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<link rel="stylesheet" type="text/css" href="css/ie.css?ver=1.0.0" />
-<![endif]-->
   </head>
 
 <script type="text/javascript"> 
@@ -40,166 +38,71 @@ window.onload=function(){
  document.body.appendChild(e); 
 } 
 </script> 
-	
 
   <body>
     <header>
-   
-                    <div class="inner">
-                        <a href="/"><img src ="/image/header3.png" class="floatLeft" /></a>
-                        <p class="headerinfo">Submission Deadline: <strong>June 30, 2012</strong><br />
-                        Tentative Festival Date:  <strong>September 2012</strong><br />
-                        Screening @ Locations:  <strong>Denver, CO | New York, NY</strong><br />
-                        Exact Locations: <strong>TBA</strong></p>
-                     </div>
-            <div class="inner">
-
-                <div id="nav" style="text-align: left;">
-                    <a href="/" class="navLink" style="background: white;"><font color="black">HOME</font></a>
-                    <a href="/about/" class="navLink">ABOUT</a>
-                    <a href="/gallery/" class="navLink">GALLERY</a>
-                    <a href="/submit-film/" class="navLink">SUBMIT FILM</a>
-                    <a href="/sponsor/" class="navLink">SPONSOR US</a>
-                    <a href="/tickets/" class="navLink">TICKETS</a>
-                    <a href="/contact/" class="navLink">CONTACT</a>
-                    <a href="/blog/" class="navLink">BLOG</a>
-               </div>
-                                 <a href="https://www.facebook.com/pages/Cinebites-Film-Festival/188573894556700?sk=info" target="_blank"><img src="/image/facebook.png" alt="facebook us" class="floatRight" /></a>
-                    <a href="https://twitter.com/cinebites" target=_"blank"><img src="/image/twitter.png" alt="twitter us" class="floatRight"/></a>
-                    <a href="mailto:alumni@arts-street.org" subject="From Cinebites Website"><img src="/image/email.png" alt="email us" class="floatRight"/></a>
-            </div>
-            
-<!--START SLIDESHOW PRE-STUFF-->
-<!-- Required CSS -->
-	<link href="css/movingboxes.css" media="screen" rel="stylesheet">
-	<!--[if lt IE 9]>
-	<link href="css/movingboxes-ie.css" rel="stylesheet" media="screen" />
-	<![endif]-->
-	
-	<!-- Required script -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-	<script src="js/jquery.movingboxes.js"></script>
-	
-	<!-- Demo only -->
-	<link href="demo/demo.css" media="screen" rel="stylesheet">
-	<script src="demo/demo.js"></script>
-<!--END SLIDESHOW PRE-STUFF-->
+        <p>&nbsp;</p>
     </header>
-
         <div id="margin">
-        <!---content-->
-            <div id="contentLeft">
-                <h1>support creativity.  support the arts.  support independent filmmakers.</h1>
-                <p>CINEBITES&reg; is a shorts film festival to aid the campaign of <a href="http://www.arts-street.org" target="_blank">Arts Street</a> as well as to promote and display the ingenuity of the creative class.  <a href="/about/">Read more&raquo;</a></p>
+            <h1>website's código surgery will be over in...</h1>
+            <SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
+<!--
 
-                <!--<div id="tvbox">
-                    <div class="screen">
-                    </div>
-                </div>
-                -->
-	<!-- Slider #1 -->
-	<ul id="slider-one">
+dateFuture = new Date(2012,2,31,0,0,0);
 
-		<li>
-			<a href="/submit-film/"><img src="demo/submit-your-film-now.jpg" alt="Submit your short film now to Cinebites 2012!"></a>
-		</li>
-		<li>
-			<!--<img src="/demo/submit-flier.jpg" alt="picture">-->
-		</li>
+function GetCount(){
 
-	</ul> <!-- end Slider #1 -->
-	<br />
-	<hr />
-	<h2>We loved our sponsors, so here's some recognition for our 2011 sponsors!:</h2>
-	<div class="sponsors">
+        dateNow = new Date();                                                                        //grab current date
+        amount = dateFuture.getTime() - dateNow.getTime();                //calc milliseconds between dates
+        delete dateNow;
 
-	    <br /><a href="http://www.fusionbox.com" target="_blank"><img src="/image/fusionbox-logo.jpg" /></a>
-	          <a href="http://www.peacejam.org" target="_blank"><img src="/image/peacejam-logo.jpg" /></a><br />
-	     	  <a href="http://www.clossonjones.com/" target="_blank"><img src="/image/clossonjoneslogo.jpg" /></a>
-	     	  <a href="http://www.the1stmovement.com/" target="_blank"><img src="/image/thefirstmovementlogo.jpg" /></a>
-    </div>
-	          
-            </div>        
+        // time is already past
+        if(amount < 0){
+                document.getElementById('countbox').innerHTML="Now!";
+        }
+        // date is still good
+        else{
+                days=0;hours=0;mins=0;secs=0;out="";
 
+                amount = Math.floor(amount/1000);//kill the "milliseconds" so just secs
 
-            <div id="contentRight">
-                <div id="contentRightInner">
-                <h1 class="floatRight">why we exist:</h1>
-                <iframe width="255" height="132" src="http://www.youtube.com/embed/R4lM7Pcz5xM" frameborder="0" allowfullscreen></iframe>
-                    <div id="contentRightNews" class="floatRight">
-                        <h1 class="floatRight">'sup with us:</h1>  
-                        <br /><br />
-                        <hr />
-                        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 4,
-  interval: 30000,
-  width: 275,
-  height: 200,
-  theme: {
-    shell: {
-      background: '#bfbbbf',
-      color: '#0a454f'
-    },
-    tweets: {
-      background: '#f7f7f7',
-      color: '#80baed',
-      links: '#7d8ba3'
-    }
-  },
-  features: {
-    scrollbar: true,
-    loop: false,
-    live: false,
-    behavior: 'all'
-  }
-}).render().setUser('Cinebites').start();
+                days=Math.floor(amount/86400);//days
+                amount=amount%86400;
+
+                hours=Math.floor(amount/3600);//hours
+                amount=amount%3600;
+
+                mins=Math.floor(amount/60);//minutes
+                amount=amount%60;
+
+                secs=Math.floor(amount);//seconds
+
+                if(days != 0){out += days +" day"+((days!=1)?"s":"")+", ";}
+                if(days != 0 || hours != 0){out += hours +" hour"+((hours!=1)?"s":"")+", ";}
+                if(days != 0 || hours != 0 || mins != 0){out += mins +" minute"+((mins!=1)?"s":"")+", ";}
+                out += secs +" seconds";
+                document.getElementById('countbox').innerHTML=out;
+
+                setTimeout("GetCount()", 1000);
+        }
+}
+
+window.onload=function(){GetCount();}//call when everything has loaded
+
+//-->
 </script>
-                        <!--<p><a href="#">News Item Title</a><br />
-                        Saturday 10-29-2011<br />
-                        Brief description goes here.<br />
-                        <a href="#">Read More&raquo;</a></p>
-                        <hr />   
-                        <p><a href="#">News Item Title</a><br />
-                        Saturday 10-29-2011<br />
-                        Brief description goes here.<br />
-                        <a href="#">Read More&raquo;</a></p>
-                        <hr />          
-                        <p><a href="#">News Item Title</a><br />
-                        Saturday 10-29-2011<br />
-                        Brief description goes here.<br />
-                        <a href="#">Read More&raquo;</a></p>   
-                        <hr />-->    
-                    </div>
-                    
-                </div>
+<div id="countbox"></div>
 
-            </div>
-          
+
+            <img src="/image/transparent.png"  alt="Cinebites 2012.  Coming Soon!"  />
+            <iframe width="560" height="315" class="video" src="http://www.youtube.com/embed/R4lM7Pcz5xM" frameborder="0" allowfullscreen></iframe>
+
         </div>
-
-
     <footer>
-
         <div class="inner">
-        <!--<a href="#"><img src="/image/facebook.png" alt="facebook us" /></a>
-        <a href="#"><img src="/image/twitter.png" alt="twitter us" /></a>
-        <a href="mailto:alumni@arts-street.org" subject="From Cinebites Website"><img src="/image/email.png" alt="email us" /></a>-->       <div class="floatLeft">
-            <a href="/">home</a>
-            <a href="/about/">about</a>
-            <a href="/gallery/">gallery</a>
-            <a href="/submit-film/">submit film</a>
-            <a href="/sponsor/">sponsor us</a>
-            <a href="/tickets/">tickets</a>
-            <a href="/contact/">contact</a>
-            <a href="/blog/">blog</a>
-            <a href="/sitemap/">sitemap</a>
-            <a href="/privacy/">privacy</a>
-        </div>
-        <p>&copy; 2012 CINEBITES.ORG</p>
+        <a href="https://www.facebook.com/pages/Cinebites-Film-Festival/188573894556700?sk=info" target="_blank"><img src="/image/facebook.png" alt="facebook us" /></a>
+        <a href="https://twitter.com/cinebites" target="_blank"><img src="/image/twitter.png" alt="twitter us" /></a>
+        <a href="mailto:alumni@arts-street.org" subject="From Cinebites Website"><img src="/image/email.png" alt="email us" /></a> &copy; 2012 CINEBITES.ORG
         </div>
     </footer>
   </body>
