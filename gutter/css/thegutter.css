@@ -14,19 +14,18 @@ html, body {
 body {
   font-family: 'Ropa Sans', sans-serif;
   font-size: 14px;
+  line-height: 20px;
 
 }
 
 body p {
-
+    padding: 5px;
 
 }
 
 #headerQuote {
-  /*background-color:  yellow;*/
   float: right;
   width: 50%;
-  margin-top: 2%;
   margin-right: 30px;
   line-height:  2em;
   font-size: 18px;  
@@ -52,9 +51,18 @@ body p {
   float: right;
 }
 
+#centerBucket {
+    float: left;
+    width: 75%;
+    height: auto;
+    margin:  60px 0px 0px 100px;
+    position: relative;
+    background-color: #6e8a93;
+    padding: 20px;
+}
+
 /**navigation**/
 div#nav {
-  margin-top:  3%;
   padding:  20px;
   width: 100%;
   float: right;
@@ -92,17 +100,24 @@ div#entriesBox {
     float: left;
     width: 50%;
     height: auto;
-    margin:  100px 100px 0px 100px;
+    margin:  60px 100px 0px 100px;
     position: relative;
+    
 }
 
 .entries {
-    height: 150px;
+    height: 110px;
 }
 
 .entriesImage {
     margin: 5px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: gray;
+      opacity: 0.75;
+      filter: alpha(opacity=90);
 }
+
 
 div#navFooter {
   margin-top:  2%;
@@ -127,7 +142,8 @@ div#navFooter a, a:link, a:visited {
 a, a:link, a:visited {
   color: blue;
   text-decoration: none;
-  float: left;
+  float: right;
+  padding: 0px 5px 0px 0px;
 }
 
 a:hover, a:focus, a:active {
@@ -139,7 +155,7 @@ a:hover, a:focus, a:active {
 
 img {
   border: none; 
-  padding: 5px 5px 5px 0px;
+  padding: 5px;
   margin-right: 6px; 
 }
 
@@ -157,7 +173,8 @@ h1 {
 h2 {
   font-size: 16px;
   color: black;
-  margin: 10px 10px 10px 0px;
+  margin: 10px 10px 0px 0px;
+  padding: 10px 0px 0px 0px;
 }
 
 h3 {
@@ -183,6 +200,17 @@ td {
 
 em {
   font-style: italic;
+}
+
+.hr {
+float: left;
+display: inline;
+width: 100%;
+height: 6px;
+font-size: 1px;
+line-height: 1px;
+border: dotted 1px;
+
 }
 /*.list {
   
