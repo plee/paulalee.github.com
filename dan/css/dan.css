@@ -13,7 +13,6 @@ body {
   height: auto;
   width: 100%;
   line-height: 20px;
-  background-image: url('/paula/image/concrete_wall_2.png');
 }
 
 body p {
@@ -26,13 +25,17 @@ body p {
 #nav {
   width: 100%;
   height: 20px;
-  background-color: gray;
+  background-color: orange;
   padding: 10px 0 10px 0;
 
 }
 
 #navInner {
-  margin-left: 150px;
+  margin-left: 175px;
+}
+
+#navInnerRight {
+  margin-right: 225px;
 }
 
 #nav a {
@@ -41,6 +44,7 @@ body p {
   float: left;
   font-size: 20px;
   font-family: 'Just Me Again Down Here', cursive;
+  color: gray;
 }
 
 #wrapper {
@@ -57,15 +61,17 @@ body p {
     padding: 10px;
 }
 
+
 #footer {
   width: 75%;
-  margin-left: 150px;
+  margin-left: 185px;
 }
 
 #footer a {
   text-decoration: none;
   font-size: 14px;
   font-family: 'Just Me Again Down Here', cursive;
+  color: gray;
   
 }
 
@@ -91,4 +97,12 @@ ul li {
   font-size: 14px;
   color: green;
   list-style-type: circle;
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
 }
