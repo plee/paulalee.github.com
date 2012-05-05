@@ -19,7 +19,7 @@ body {
 body p {
   padding: 5px;
   font-size: 14px;
-  color: green;
+  color: black;
 
 }
 
@@ -30,6 +30,7 @@ body p {
   padding: 10px 0 10px 0;
 
 }
+
 
 #navInner {
   margin-left: 175px;
@@ -56,10 +57,19 @@ body p {
 
 #innerWrapper {
     margin: 20px;
+    width: 260px;
+}
+
+#slogan {
+    margin: 20px 0px 0px 20px;
 }
 
 #innerWrapper .homeImages img{
-    padding: 10px 10px 0px 0px;
+    padding: 5px;
+    border: dotted 1px;
+    border-color: black
+
+
 }
 
 
