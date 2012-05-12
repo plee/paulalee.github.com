@@ -1,5 +1,5 @@
 /* Reset default positioning values */
-@import "reset.css";
+@import "reset-dan.css";
 
 /***layout***/
 
@@ -21,6 +21,14 @@ body p {
   font-size: 14px;
   color: black;
 
+}
+
+body a {
+   color: gray;
+}
+
+body a:hover {
+    color: black;
 }
 
 #nav {
@@ -47,6 +55,10 @@ body p {
   font-size: 20px;
   font-family: 'Just Me Again Down Here', cursive;
   color: gray;
+}
+
+#nav a:hover {
+  color: white;
 }
 
 #wrapper {
@@ -118,4 +130,11 @@ ul li {
     float: left;
 }
 
+em {
+  font-style: italic;
+}
+
+.white {
+    color: white;
+}
 

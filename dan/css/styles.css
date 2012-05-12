@@ -1,0 +1,49 @@
+/*body {
+	background-image: url(images/background.png);
+	background-repeat: repeat;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+a img { border:none }
+
+h1 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 20px;
+	color: #3F3F3F;
+	text-transform: uppercase;
+}
+
+#wrapper {
+	width: 650px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+
+#title {
+	width: 317px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;
+}
+*/
+.gallery td {
+	position: relative;
+    height: 300px;
+    
+}
+
+img.grey {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+ 
+img.color {
+	position: absolute;
+	left: 0; top: 0;
+}
