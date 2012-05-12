@@ -30,10 +30,15 @@ h1 {
 	margin-left: auto;
 }
 */
-.gallery td {
+.gallery li {
+	float: left;
+	margin-right: 20px;
+	list-style-type: none;
+	margin-bottom: 20px;
+	display: block;
+	height: 250px;
+	width: 250px;
 	position: relative;
-    height: 300px;
-    
 }
 
 img.grey {

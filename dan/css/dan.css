@@ -14,6 +14,7 @@ body {
   width: 100%;
   line-height: 20px;
   background-image: url(/dan/images/connect.png);
+
 }
 
 body p {
@@ -34,14 +35,14 @@ body a:hover {
 #nav {
   width: 100%;
   height: 20px;
-  background-color: orange;
+  background-color: black;
   padding: 10px 0 10px 0;
 
 }
 
 
 #navInner {
-  margin-left: 175px;
+  margin-left: 20px;
 }
 
 #navInnerRight {
@@ -61,15 +62,24 @@ body a:hover {
   color: white;
 }
 
+#nav img{
+    z-index: 50;
+        position: absolute;
+        top: 5px;
+}
+
+
+    
 #wrapper {
     width: 75%;
     position: block;    
-    margin-left: 150px;
+
 }
 
 #innerWrapper {
     margin: 20px;
-    width: 260px;
+    width: 900px;
+
 }
 
 #slogan {
@@ -80,14 +90,12 @@ body a:hover {
     padding: 5px;
     border: dotted 1px;
     border-color: black
-
-
 }
 
 
 #footer {
   width: 75%;
-  margin-left: 185px;
+  margin-left: 20px;
 }
 
 #footer a {
@@ -136,5 +144,15 @@ em {
 
 .white {
     color: white;
+}
+
+div.dogBackground {
+    position: absolute;
+    z-index: 50;
+    left: 75%;
+    display: block;
+    float: right;
+
+    
 }
 
