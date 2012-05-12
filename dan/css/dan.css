@@ -92,6 +92,10 @@ body a:hover {
     border-color: black
 }
 
+.blackBack {
+    background-color: black;
+}
+
 
 #footer {
   width: 75%;
