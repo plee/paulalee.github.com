@@ -21,6 +21,7 @@ body p {
   padding: 5px;
   font-size: 14px;
   color: black;
+  margin-left: 15px;
 
 }
 
@@ -115,12 +116,14 @@ h1 {
     font-size: 30px;
     padding-bottom: 5px;
     font-family: 'Just Me Again Down Here', cursive;
+        padding-left: 15px;
 }
 
 h2 {
     font-size: 25px;
     padding-bottom: 5px;
     font-family: 'Just Me Again Down Here', cursive;
+
 
 }
 
