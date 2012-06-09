@@ -13,7 +13,7 @@ body {
   height: auto;
   width: 100%;
   line-height: 20px;
-  background-image: url(/dan/images/connect.png);
+  background-image: url(/dan/images/wite_brick_wall.png);
 
 }
 
@@ -65,12 +65,15 @@ body a:hover {
 
 #nav img{
     z-index: 50;
-        position: absolute;
-        top: 5px;
+    position: absolute;
+    top: 5px;
 }
 
+.images {
+    padding: 7px;
+    float: right;
+}
 
-    
 #wrapper {
     width: 75%;
     position: block;    
@@ -159,9 +162,8 @@ div.dogBackground {
     z-index: 50;
     left: 75%;
     display: block;
-    float: right;
-
-    
+    float: right;   
+    border-left: solid 3px gray;
 }
 
 strong {
