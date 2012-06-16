@@ -13,7 +13,7 @@ body {
   height: auto;
   width: 100%;
   line-height: 20px;
-  background-image: url(/dan/images/white_brick_wall.png);
+  background-image: url(/dan/images/brick_colored_scaled.jpg);
 
 }
 
@@ -35,15 +35,16 @@ body a:hover {
 
 #nav {
   width: 100%;
-  height: 20px;
+  height: 50px;
   background-color: black;
   padding: 10px 0 10px 0;
+  margin-bottom: 50px;
 
 }
 
 
 #navInner {
-  margin-left: 20px;
+  margin-left: 150px;
 }
 
 #navInnerRight {
@@ -81,19 +82,20 @@ body a:hover {
 }
 
 #innerWrapper {
-    margin: 20px;
-    width: 900px;
+    margin-left: 0px;
+    width: 100%;
 
 }
 
 #slogan {
-    margin: 20px 0px 0px 20px;
+    padding: 10px;
+    margin: 20px 0px 0px 150px; 
+    color: white;
+
 }
 
 #innerWrapper .homeImages img{
     padding: 5px;
-    border: dotted 1px;
-    border-color: black
 }
 
 .blackBack {
@@ -105,6 +107,7 @@ body a:hover {
   width: 75%;
   margin-left: 20px;
 
+
 }
 
 #footer a {
@@ -112,6 +115,7 @@ body a:hover {
   font-size: 14px;
   font-family: 'Just Me Again Down Here', cursive;
   color: gray;
+
   
 }
 
@@ -123,7 +127,7 @@ h1 {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 5px;
     font-family: 'Just Me Again Down Here', cursive;
 

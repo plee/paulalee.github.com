@@ -32,7 +32,7 @@ h1 {
 */
 .gallery li {
 	float: left;
-	margin-right: 20px;
+	margin-right: 100px;
 	list-style-type: none;
 	margin-bottom: 20px;
 	display: block;
