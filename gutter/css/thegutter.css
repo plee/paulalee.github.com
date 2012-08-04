@@ -68,8 +68,7 @@ div#nav {
   float: right;
   background-color: #6e8a93;
   font-size: 16px;
-  opacity: 0.75;
-  filter: alpha(opacity=50);
+
 }
 
 div#nav a, a:link, a:visited {

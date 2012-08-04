@@ -5,24 +5,25 @@
 
 html {
   width: 100%;
-  height: 100%;
-  
+
+}
+
+#margin {
+  margin: auto;
+  width: 960px;
 }
 
 body {
-  height: auto;
-  width: 100%;
-  line-height: 20px;
-  background-image: url(/dan/images/brick_colored_scaled.jpg);
+  background-image: url('/dan/images/water.jpg');
+    background-position-x: 50%;
+  background-repeat: no-repeat;
+
 
 }
 
 body p {
-  padding: 5px;
   font-size: 14px;
   color: black;
-  margin-left: 15px;
-
 }
 
 body a {
@@ -34,104 +35,60 @@ body a:hover {
 }
 
 #nav {
-  width: 100%;
-  height: 50px;
-  background-color: black;
-  padding: 10px 0 10px 0;
-  margin-bottom: 50px;
-
-}
-
-
-#navInner {
-  margin-left: 150px;
-}
-
-#navInnerRight {
-  margin-left: 300px;
-}
+/*    background-color: red; */
+    width: 50%;
+    float: right;
+    text-align: right;
+}   
 
 #nav a {
-  margin-right: 20px;
-  text-decoration: none;
-  float: left;
-  font-size: 20px;
-  font-family: 'Just Me Again Down Here', cursive;
-  color: gray;
+    text-decoration: none;
+    line-height: 2em;
+    font-size: 25px;
 }
-
-#nav a:hover {
-  color: white;
-}
-
-#nav img{
-    z-index: 50;
-    position: absolute;
-    top: 5px;
-}
-
-.images {
-    padding: 7px;
-    float: right;
-}
-
-#wrapper {
-    width: 75%;
-    position: block;    
-
-}
-
-#innerWrapper {
-    margin-left: 0px;
-    width: 100%;
-
-}
-
-#slogan {
-    padding: 10px;
-    margin: 20px 0px 0px 150px; 
-    color: white;
-
-}
-
-#innerWrapper .homeImages img{
-    padding: 5px;
-}
-
-.blackBack {
-    background-color: black;
-}
-
 
 #footer {
-  width: 75%;
-  margin-left: 20px;
-
-
+  width: 100%;
+  background-color: #00c6f9;
+  height: auto;
+  padding: 15px 0px 15px 0px;
+  text-align: right;
 }
 
 #footer a {
   text-decoration: none;
   font-size: 14px;
-  font-family: 'Just Me Again Down Here', cursive;
   color: gray;
 
-  
+}
+
+.logo {
+/*    background-color: yellow; */
+    height: auto;
+}
+
+#leftContainer {
+    width: 40%;    
+    background-color: #1d677f;
+    height: 600px; 
+    opacity: 0.90;
+    filter: alpha(opacity=50);
+}
+
+.leftSide {
+/*    background-color: blue; */
+    width: 40%;
+    float: left;
+    height: auto;
+    text-align: center;
 }
 
 h1 {
     font-size: 30px;
-    padding-bottom: 5px;
-    font-family: 'Just Me Again Down Here', cursive;
-        padding-left: 15px;
 }
 
 h2 {
     font-size: 20px;
-    padding-bottom: 5px;
-    font-family: 'Just Me Again Down Here', cursive;
-
-
 }
 
 .list {
@@ -145,29 +102,8 @@ ul li {
   list-style-type: circle;
 }
 
-.floatRight {
-    float: right;
-}
-
-.floatLeft {
-    float: left;
-}
-
 em {
   font-style: italic;
-}
-
-.white {
-    color: white;
-}
-
-div.dogBackground {
-    position: absolute;
-    z-index: 50;
-    left: 75%;
-    display: block;
-    float: right;   
-    border-left: solid 3px gray;
 }
 
 strong {
